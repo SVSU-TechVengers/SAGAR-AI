@@ -1,0 +1,8 @@
+port,latitude,longitude,max_draft_m,max_loa_m,max_beam_m,berth_capacity_mtpa,congestion_index,status
+Paradip,20.264,86.672,17.1,290,45,125,38,Green
+Vizag,17.686,83.291,16.5,280,45,80,72,Amber
+Gangavaram,17.635,83.230,18.0,300,50,65,31,Green
+Gopalpur,19.263,85.056,14.5,230,38,25,58,Amber
+Dhamra,20.779,86.943,18.5,300,50,55,22,Green
+Sagar-Sandheads,21.750,88.120,12.5,225,32,35,81,Red
+Haldia,22.030,88.060,12.8,230,32,75,76,Red
