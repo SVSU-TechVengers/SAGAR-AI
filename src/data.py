@@ -11,3 +11,8 @@ def load_rates() -> pd.DataFrame:
     path = DATA / "historical_rates.csv"
     rates = pd.read_csv(path, parse_dates=["date"])
     return rates.sort_values("date")
+
+
+def load_suppliers() -> pd.DataFrame:
+    """Representative supply-lane master data for the MVP selector."""
+    return pd.read_csv(DATA / "suppliers.csv")

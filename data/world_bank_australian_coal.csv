@@ -1,0 +1,4 @@
+date,commodity,benchmark,price_usd_tonne,source
+2026-06-01,Coal,Australian coal (World Bank Pink Sheet),138.5,World Bank cached public feed
+2026-07-01,Coal,Australian coal (World Bank Pink Sheet),131.9,World Bank cached public feed
+2026-08-01,Coal,Australian coal (World Bank Pink Sheet),135.2,World Bank cached public feed

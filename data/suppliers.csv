@@ -1,0 +1,45 @@
+cargo,supplier,country,loading_port,origin_key
+Thermal Coal,Glencore Australia,Australia,Newcastle,Australia
+Thermal Coal,Bumi Resources,Indonesia,Taboneo,Indonesia
+Thermal Coal,Vale Mozambique,Mozambique,Nacala,Mozambique
+Thermal Coal,Peabody Energy,US,Baltimore,US
+Thermal Coal,SUEK,Russia,Vostochny,Russia
+Thermal Coal,China Shenhua,China,Qinhuangdao,China
+Thermal Coal,Glencore Colombia,Colombia,Puerto Bolivar,Mozambique
+Coking Coal,BHP,Australia,Hay Point,Australia
+Coking Coal,Peabody Energy,US,Hampton Roads,US
+Coking Coal,Teck Resources,Canada,Vancouver,US
+Coking Coal,Mechel,Russia,Nakhodka,Russia
+Coking Coal,Anglo American,South Africa,Richards Bay,Mozambique
+Iron Ore,Rio Tinto,Australia,Dampier,Australia
+Iron Ore,Vale,Brazil,Ponta da Madeira,Mozambique
+Iron Ore,Anglo American,South Africa,Saldanha Bay,Mozambique
+Iron Ore,Metalloinvest,Russia,Novorossiysk,Russia
+Iron Ore,China Baowu,China,Qingdao,China
+Aluminium Ore / Bauxite,Weipa Operations,Australia,Weipa,Australia
+Aluminium Ore / Bauxite,CBG,Guinea,Kamsar,Mozambique
+Aluminium Ore / Bauxite,China Hongqiao,China,Yantai,China
+Alumina,Queensland Alumina,Australia,Gladstone,Australia
+Alumina,Alunorte,Brazil,Vila do Conde,Mozambique
+Alumina,RUSAL,Russia,Ust-Luga,Russia
+Alumina,Alumina Limited,Spain,Algeciras,Russia
+Uranium Concentrate,Kazatomprom,Kazakhstan,St Petersburg,Russia
+Uranium Concentrate,Orano,Niger,Cotonou,Mozambique
+Uranium Concentrate,Cameco,Canada,Port Hope,US
+Uranium Concentrate,Orano,France,Le Havre,Russia
+Crude Oil,Saudi Aramco,Saudi Arabia,Ras Tanura,Russia
+Crude Oil,ADNOC,UAE,Ruwais,Russia
+Crude Oil,Petrobras,Brazil,Angra dos Reis,Mozambique
+Crude Oil,Rosneft,Russia,Novorossiysk,Russia
+Crude Oil,Sinopec,China,Ningbo,China
+LNG,QatarEnergy,Qatar,Ras Laffan,Russia
+LNG,Woodside Energy,Australia,Pluto,Australia
+LNG,Cheniere Energy,US,Sabine Pass,US
+LNG,Novatek,Russia,Sabetta,Russia
+LNG,Equinor,Norway,Hammerfest,Russia
+Petroleum Coke,Valero Energy,US,Houston,US
+Petroleum Coke,Reliance Industries,India,Jamnagar,Russia
+Fertiliser,OCP Group,Morocco,Jorf Lasfar,Mozambique
+Fertiliser,ICL Group,Israel,Ashdod,Russia
+Fertiliser,EuroChem,Russia,Ust-Luga,Russia
+Fertiliser,SinoChem,China,Qingdao,China

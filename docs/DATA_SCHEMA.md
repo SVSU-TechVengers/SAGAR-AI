@@ -20,7 +20,7 @@ Unique key: `date, origin, destination, vessel_type, source`.
 
 | Field | Type | Description |
 |---|---|---|
-| port | text | Unique port name |
+| port | text | Unique port name; the MVP includes both India East Coast and West Coast ports |
 | latitude / longitude | numeric | Decimal degrees for map presentation |
 | max_draft_m | numeric | Operational maximum draft after restrictions |
 | max_loa_m / max_beam_m | numeric | Maximum accepted vessel dimensions |
@@ -31,6 +31,18 @@ Unique key: `date, origin, destination, vessel_type, source`.
 ## Supporting production tables
 
 `commodity_prices(date, commodity, benchmark, price_usd_tonne, source)`; `seasonal_demand(month, destination, demand_index)`; `ais_port_calls(vessel_imo, port, arrived_at, berthed_at, departed_at, source)`; `vessel_specs(vessel_imo, dwt, draft_m, loa_m, beam_m, vessel_type)`.
+
+## `suppliers`
+
+| Field | Type | Description |
+|---|---|---|
+| cargo | text | Procurement commodity category |
+| supplier | text | Supplier or representative supply operation |
+| country | text | Supplier country |
+| loading_port | text | Typical load port / terminal |
+| origin_key | text | Forecasting route-region mapping |
+
+The MVP supplier list is representative reference data, not an approved-vendor list. Replace it with the organisation's approved supplier and terminal master data before use in procurement workflows.
 
 ## Quality gates
 

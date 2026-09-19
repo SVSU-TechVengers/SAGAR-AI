@@ -42,6 +42,18 @@ Keep the column names and units in `docs/DATA_SCHEMA.md`, then replace the files
 
 For production, store raw source records and a normalized analytics table in PostgreSQL. Put credentials in environment variables or Streamlit secrets, not in CSV files. Validate units (USD/tonne, metres, DWT) before a model run.
 
+### Internet data in this MVP
+
+The sidebar can fetch the latest available **Australian coal** observation from the [World Bank Commodity Markets Pink Sheet](https://www.worldbank.org/en/research/commodity-markets). This is a public market-context benchmark and does not replace a delivered-coal assessment or freight quote.
+
+If the app is deployed on a host that blocks outbound internet calls, it automatically uses the last verified World Bank observations retained in `data/world_bank_australian_coal.csv`. Run the refresh action again after outbound access is enabled to retrieve the newest workbook.
+
+Dry-bulk freight assessments and vessel positions should not be scraped from websites. Use licensed source connections instead:
+
+- **Baltic Exchange:** obtain the applicable data and non-display licences before automating use of dry-bulk assessments.
+- **MarineTraffic:** configure an API key from its AIS API service in Streamlit secrets, then call only the endpoints and fields covered by the account's subscription.
+- **Port authorities:** use published operational notices or formal data-sharing arrangements, retaining effective timestamps and provenance.
+
 ## Modelling roadmap
 
 The MVP uses a transparent seasonal-trend baseline with confidence bands so it runs immediately. `src/forecasting.py` provides clear replacement points for Prophet and XGBoost: fit Prophet for route-level time-series structure, then add an XGBoost residual/feature model using fuel, commodity, AIS, congestion, and calendar features. Backtest by route and vessel class before enabling contract recommendations.
